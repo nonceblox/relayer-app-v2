@@ -1,0 +1,26 @@
+{
+    "relayer": {},
+    "chains": [{
+            "name": "Rinkbey",
+            "type": "evm",
+            "id": 4,
+            "endpoint": "wss://eth-rinkeby.alchemyapi.io/v2/Pgb6UvWBwyYNRyn1_19HqhSpbRtK-74W",
+            "from": "0x408b33def162c6e48DBB823cef9Ba7A0181dc961",
+            "bridge": "0x2ABb76b4D134bDF9C5aD301C2C0d2B9430ed4971",
+            "erc20Handler": "0x243bFBDd59a896fA264da959F55Ecd89f894adF3",
+            "gasLimit": 8000000,
+            "maxGasPrice": 20000000000
+        }, {
+            "name": "Garoli",
+            "type": "evm",
+            "id": 5,
+            "endpoint": "wss://eth-goerli.alchemyapi.io/v2/xcS0nir47eyMK0hto3p4WgWBHR6NkKlD/",
+            "from": "0x408b33def162c6e48DBB823cef9Ba7A0181dc961",
+            "bridge": "0x5Eb9d1F92A2719BbB0Ba2650C3bf1e8b47D85Fd1",
+            "erc20Handler": "0xAa5ac2FD2239Ae3bAF462336D5c967128EA49FA1",
+            "gasLimit": 1000000,
+            "maxGasPrice": 10000000000
+        }
+
+    ]
+}
