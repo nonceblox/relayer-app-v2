@@ -3,7 +3,7 @@ module example.com
 go 1.18
 
 require (
-	github.com/devanshubhadouria/chainbridge-core v1.0.25
+	github.com/devanshubhadouria/chainbridge-core v1.0.29
 	github.com/ethereum/go-ethereum v1.10.15
 	github.com/rs/zerolog v1.26.1
 	github.com/spf13/cobra v1.2.1
