@@ -55,7 +55,7 @@ func Run() error {
 					panic(err)
 				}
 
-				privateKey, err := secp256k1.HexToECDSA("201d7581add93a2e578e05724ec4ab1b83694f324ee3608ea52f174486aac51c")
+				privateKey, err := secp256k1.HexToECDSA(config.GeneralChainConfig.Key)
 
 				if err != nil {
 					panic(err)
