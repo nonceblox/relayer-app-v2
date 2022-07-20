@@ -3,7 +3,7 @@ module example.com
 go 1.18
 
 require (
-	github.com/nonceblox/elysium-chainsafe-core v1.0.4
+	github.com/nonceblox/elysium-chainsafe-core v1.0.12
 	github.com/ethereum/go-ethereum v1.10.15
 	github.com/rs/zerolog v1.26.1
 	github.com/spf13/cobra v1.2.1
